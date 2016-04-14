@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">UD3Práctica1PasoDatosIntent</string>
+    <string name="title_activity_ud3_act9_main">UD3ACT9 Main
+    </string>
+    <string name="title_activity_ud3_act9_aux">UD3ACT9 Aux</string>
+    <string name="string_etiqueta_aux_nombre">Nombre:</string>
+    <string name="string_etiqueta_aux_edad">Edad:</string>
+    <string name="string_etiqueta_aux_tel">Teléfono:</string>
+    <string name="string_boton_pedirNombre">"Pedir Nombre"</string>
+    <string name="string_boton_pedirEdad">"Pedir edad"</string>
+    <string name="string_boton_pedirTel">"Pedir teléfono"</string>
+    <string name="string_toast_datovacío">El campo se halla vacío</string>
+
+</resources>

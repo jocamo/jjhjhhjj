@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imagenContacto"
+        android:src="@drawable/contacto_mujer" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Edad"
+        android:id="@+id/textView_edad"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/imagenContacto"
+        android:layout_toEndOf="@+id/imagenContacto">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Nombre"
+            android:id="@+id/textView_nombre"
+            android:maxLength="20"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_alignParentTop="true"
+            android:layout_toRightOf="@+id/imagenContacto"
+            android:layout_toEndOf="@+id/imagenContacto"
+            android:layout_margin="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Apellido"
+            android:id="@+id/textView_apellido"
+            android:maxLength="20"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:layout_alignBottom="@+id/textView_curso"
+            android:layout_toRightOf="@+id/imagenContacto"
+            android:layout_toEndOf="@+id/imagenContacto"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Curso"
+            android:id="@+id/textView_curso"
+            android:textColor="#36ee15"
+            android:layout_alignBaseline="@+id/textView_edad"
+            android:layout_alignBottom="@+id/textView_edad"
+            android:layout_toRightOf="@+id/imagenContacto"
+            android:layout_toEndOf="@+id/imagenContacto"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

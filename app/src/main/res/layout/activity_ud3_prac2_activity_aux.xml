@@ -1,0 +1,15 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.profesor.aplicaciones_de_muestra.UD3ACT6PasoDatosIntentAux">
+
+
+    <fragment
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:name="com.example.profesor.ud4prac3.Fragmentos.FragmentoDetalle"
+        android:id="@+id/fragment_detalle"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        tools:layout="@layout/fragment_fragmento_detalle" />
+</RelativeLayout>

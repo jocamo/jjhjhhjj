@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">UD4Práctica3</string>
+    <string name="title_activity_ud3_act9_main">UD4PR3 Main
+    </string>
+    <string name="title_activity_ud3_act9_aux">UD4PR3 Aux</string>
+    <string name="string_etiqueta_aux_nombre">Nombre:</string>
+    <string name="string_etiqueta_aux_edad">Edad:</string>
+    <string name="string_etiqueta_aux_tel">Teléfono:</string>
+    <string name="string_boton_pedirNombre">"Pedir Nombre"</string>
+    <string name="string_boton_pedirEdad">"Pedir edad"</string>
+    <string name="string_boton_pedirTel">"Pedir teléfono"</string>
+    <string name="string_toast_datovacío">El campo se halla vacío</string>
+    <string name="string_etiqueta_aux_apellido">Apellido:</string>
+    <string name="string_etiqueta_aux_ciclo">Ciclo:</string>
+    <string name="string_etiqueta_opciones">Opciones</string>
+    <string name="string_radio_hombre">Hombre</string>
+    <string name="string_radio_mujer">Mujer</string>
+    <string name="string_dialogo_cambioalumno_titulo">Ojito</string>
+    <string name="string_dialogo_cambioalumno_mensaje">¿Está seguro que quiere modificar el/la siguiente alumn@? </string>
+    <string name="string_dialogo_cambioalumno_botonAceptar">Sí</string>
+    <string name="string_dialogo_cambioalumno_botonCancelar">Me da miedito</string>
+
+
+</resources>
